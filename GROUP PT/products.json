@@ -1,0 +1,40 @@
+data = {
+    "categories": [
+      {
+        "name": "Classic",
+        "types": [
+          {
+            "name": "Espresso",
+            "description": "A concentrated coffee beverage brewed by forcing hot water under pressure through finely ground coffee.",
+            "price": 2.99
+          },
+          {
+            "name": "Cappuccino",
+            "description": "An espresso-based coffee drink that is traditionally prepared with equal parts espresso, steamed milk, and milk foam.",
+            "price": 3.49
+          },
+          {
+            "name": "Latte",
+            "description": "A coffee drink made with espresso and steamed milk, topped with a small layer of milk foam.",
+            "price": 3.99
+          }
+        ]
+      },
+      {
+        "name": "Specialty",
+        "types": [
+          {
+            "name": "Cold Brew",
+            "description": "A method of brewing coffee using room temperature or cold water, resulting in a smoother and less acidic taste.",
+            "price": 4.99
+          },
+          {
+            "name": "Mocha",
+            "description": "A chocolate-flavored variant of a latte, typically made with espresso, steamed milk, chocolate syrup, and whipped cream.",
+            "price": 4.49
+          }
+        ]
+      }
+    ]
+  }
+  

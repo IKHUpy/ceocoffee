@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/images/logo.png" type="image/png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+    <title>CEO MILKCOFEE</title>
+</head>
+<body>
+    <header class="primary-header">
+        <div class="container">
+            <div class="hero even-columns">
+                <div class="header-left">
+                <a href="/"><embed src="/images/logo.png" width="50px" height="50px" alt="Manage"> </a>
+                </div>
+                <div class="header-right">
+                    <nav class="primary-navigation" id="primary-navigation">
+                        <ul role="list" class="nav-list">
+                            <li><a href="/">Menu</a></li>
+                            <li><a href="/cart.html">Tray</a></li>
+                            <li><a href="/aboutus.html">About Us</a></li>
+                            <li><a href="/faq.html">FAQ</a></li>
+                            <li><a href="/login.html">Login / Signup</a></li>
+                        </ul>
+                    </nav>
+                </div>    
+            </div>
+        </div>
+    </header>
+    <main> 
+        <div class="container" style="height: 100px;"><h1>Your Tray</h1></div>
+        <div class="container" style="padding-top: 50px;padding-bottom: 50px;">
+            <div class="" id="cart-display"></div>
+            <h3 style="padding: 40px; " id="totalprice"></h3>
+        </div>
+        <div class="container cart" style="padding-top: 50px;padding-bottom: 50px;">
+            <button onclick="clearCart()">Clear Tray</button>
+        </div>
+    </main>
+    <footer class="primary-footer | padding-block-900 bg-neutral-900 text-neutral-100">
+        <div class="container"> 
+            FOOTER
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="cartscript.js"></script>
+</body>
+</html>

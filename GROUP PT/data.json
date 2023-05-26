@@ -1,0 +1,992 @@
+{
+  "categories": [
+    {
+      "name": "Decaffeinated",
+      "types": 
+	 [
+        {
+          "name": "Iced Americano Decaf",
+		  "ID": 1,
+          "description": "A shot of decaffeinated espresso diluted with your brewing desire.",
+          "price": 79.99,
+		  "img": "/images/iced americano.jpg"
+		  
+        },
+        {
+          "name": "Americano Decaf",
+		  "ID": 2,
+          "description": "A shot of decaffeinated espresso diluted with your brewing desire.",
+          "price": 79.99,
+		  "img": "/images/hot americano.jpg"
+        },
+        {
+          "name": "Irish Coffee Decaf",
+		  "ID": 3,
+          "description": "Hot caffeinated cocktail consisting of coffee, Irish cream liqueur, and Irish whiskey.",
+          "price": 99.99,
+		  "img": "/images/irish coffee.jpg"
+        },
+		{
+          "name": "Vietnamese Coffee Decaf",
+		  "ID": 4,
+          "description": "Bold, phin-drip decaffeinated coffee combined with sweet condensed milk.",
+          "price": 109.99,
+		  "img": "/images/vietnamese.jpg"
+        },
+		{
+          "name": "CEO Classic Blend Decaf",
+		  "ID": 5,
+          "description": "A classic blend of decaffeinated coffee beans of our own.",
+          "price": 95.00,
+		  "img": "/images/ceo blend.jpg"
+        },
+		{
+          "name": "Cappuccino Decaf",
+		  "ID": 6,
+          "description": "A balanced ratio of decaffeinated espresso, steamed milk, and milk foam.",
+          "price": 80.00,
+		  "img": "/images/cappuccino.jpg"
+        },
+		{
+          "name": "Espresso Decaf",
+		  "ID": 7,
+          "description": "1oz of highly concentrated decaffeinated coffee.",
+          "price": 45.00,
+	      "img": "/images/espresso.jpg"	
+        },
+		{
+          "name": "Caramel Macchiato Decaf",
+		  "ID": 8,
+          "description": "Decaffeinated espresso added to milk topped with caramel syrup.",
+          "price": 80.00,
+		  "img": "/images/caramel macchiato.jpg"	
+        },
+		{
+          "name": "Iced Latte Decaf",
+		  "ID": 9,
+          "description": "Rich, creamy beverage with a more subtle espresso taste.",
+          "price": 85.00,
+		  "img": "/images/iced latte.jpg"
+        },
+				{
+          "name": "Classic Latte Decaf",
+		  "ID": 10,
+          "description": "Rich, creamy beverage with a more subtle espresso taste. Topped with a layer of foam art.",
+          "price": 100.00,
+		  "img": "/images/latte.jpg"
+        },
+		{
+          "name": "Affogato Decaf",
+		  "ID": 11,
+          "description": "Decaffeinated espresso with vanilla ice cream.",
+          "price": 100.00,
+		  "img": "/images/Affogato.jpg"
+        },
+		{
+          "name": "Vanilla Bean Frappe",
+		  "ID": 12,
+          "description": "A blend of 3 scoops of vanilla bean powder, steamed milk, ice, and creme frappe syrup. Topped with whipped cream and vanilla syrup.",
+          "price": 130.00,
+		  "img": "/images/vanilla.jpg"
+        },
+				{
+          "name": "Caramel Crunch Frappe",
+		  "ID": 13,
+          "description": "A blend of caramel syrup added to milk and blended with ice, layered with dark caramel sauce. Topped with whipped cream and caramel-sugar topping.",
+          "price": 130.00,
+		  "img": "/images/caramel crunch.jpg"
+        },
+		{
+          "name": "Pumpkin Spice Frappe",
+		  "ID": 14,
+          "description": "A blend of pumpkin with cinnamon, nutmeg, ginger, cloves, and allspice, sweet and creamy steamed milk, and ice. Topped with whipped cream and pumpkin- spice powder.",
+          "price": 150.00,
+		  "img": "/images/pumpkin.jpg"
+        },
+		{
+          "name": "Pistachio Frappe",
+		  "ID": 15,
+          "description": "A blend of sweet pistachio sauce, steamed milk, ice, and creme frappe syrup. Topped with whipped cream and pistachio nuts.",
+          "price": 150.00,
+		  "img": "/images/pistachio.jpg"
+        },
+		{
+          "name": "White Chocolate Frappe",
+		  "ID": 16,
+          "description": "A blend of white chocolate mocha sauce, steamed milk, ice, and creme frappe syrup. Topped with whipped cream and shaved white chocolate.",
+          "price": 130.00,
+		  "img": "/images/white chocolate.jpg"
+
+        },
+		{
+          "name": "Strawberry Frappe",
+		  "ID": 17,
+          "description": "A blend of strawberry puree, steamed milk, ice, and creme frappe syrup. Topped with whipped cream and bits of strawberry.",
+          "price": 160.00,
+		  "img": "/images/strawberry.jpg"
+        },
+		{
+          "name": "Caramel Frappuccino",
+		  "ID": 18,
+          "description": "Caramel syrup with coffee, chocolate, milk, and whipped cream.",
+          "price": 129.99,
+		  "img": "/images/caramel frappe p.jpg"
+        },
+		{
+          "name": "Caramel Frappe Deluxe",
+		  "ID": 19,
+          "description": "Syrup, cold milk and ice, with a swirl of whipped cream.",
+          "price": 189.99,
+		  "img": "/images/caramel frappe d.jpg"
+        },
+		{
+          "name": "Chocolate Frappe",
+		  "ID": 20,
+          "description": "A coffee, milk, and chocolate syrup, topped with whipped cream.",
+          "price": 149.99,
+		  "img": "/images/chocolate frappe.jpg"
+        }
+      ]
+    },
+	
+	
+	
+	{
+      "name": "Frappe",
+      "types": 
+	[
+        {
+          "name": "Vanilla Bean Frappe",
+		  "ID": 12,
+          "description": "A blend of 3 scoops of vanilla bean powder, steamed milk, ice, and creme frappe syrup. Topped with whipped cream and vanilla syrup.",
+          "price": 130.00,
+		  "img": "/images/vanilla.jpg"
+        },
+		{
+          "name": "Caramel Crunch Frappe",
+		  "ID": 13,
+          "description": "A blend of caramel syrup added to milk and blended with ice, layered with dark caramel sauce. Topped with whipped cream and caramel-sugar topping.",
+          "price": 130.00,
+		  "img": "/images/caramel crunch.jpg"
+        },
+		{
+          "name": "Pumpkin Spice Frappe",
+		  "ID": 14,
+          "description": "A blend of pumpkin with cinnamon, nutmeg, ginger, cloves, and allspice, sweet and creamy steamed milk, and ice. Topped with whipped cream and pumpkin- spice powder.",
+          "price": 150.00,
+		  "img": "/images/pumpkin.jpg"
+        },
+		{
+          "name": "Pistachio Frappe",
+		  "ID": 15,
+          "description": "A blend of sweet pistachio sauce, steamed milk, ice, and creme frappe syrup. Topped with whipped cream and pistachio nuts.",
+          "price": 150.00,
+		  "img": "/images/pistachio.jpg"
+        },
+		{
+          "name": "White Chocolate Frappe",
+		  "ID": 16,
+          "description": "A blend of white chocolate mocha sauce, steamed milk, ice, and creme frappe syrup. Topped with whipped cream and shaved white chocolate.",
+          "price": 130.00,
+		  "img": "/images/white chocolate.jpg"
+
+        },
+		{
+          "name": "Strawberry Frappe",
+		  "ID": 17,
+          "description": "A blend of strawberry puree, steamed milk, ice, and creme frappe syrup. Topped with whipped cream and bits of strawberry.",
+          "price": 160.00,
+		  "img": "/images/strawberry.jpg"
+        },
+		{
+          "name": "Caramel Frappuccino",
+		  "ID": 18,
+          "description": "Caramel syrup with coffee, chocolate, milk, and whipped cream.",
+          "price": 129.99,
+		  "img": "/images/caramel frappe p.jpg"
+        },
+		{
+          "name": "Caramel Frappe Deluxe",
+		  "ID": 19,
+          "description": "Syrup, cold milk and ice, with a swirl of whipped cream.",
+          "price": 189.99,
+		  "img": "/images/caramel frappe d.jpg"
+        },
+		{
+          "name": "Chocolate Frappe",
+		  "ID": 20,
+          "description": "A coffee, milk, and chocolate syrup, topped with whipped cream.",
+          "price": 149.99,
+		  "img": "/images/chocolate frappe.jpg"
+        }
+      ]
+    },
+
+	
+
+    {
+      "name": "Caffeinated",
+      "types": 
+	  [
+        {
+          "name": "Iced Americano",
+		  "ID": 21,
+          "description": "A shot of espresso diluted with your brewing desire.",
+          "price": 79.99,
+		  "img": "/images/iced americano.jpg"
+        },
+        {
+          "name": "Americano",
+		  "ID": 22,
+          "description": "A shot of espresso diluted with your brewing desire.",
+          "price": 79.99,
+		  "img": "/images/hot americano.jpg"
+        },
+		{
+          "name": "Irish Coffee",
+		  "ID": 23,
+          "description": "Hot caffeinated cocktail consisting of coffee, Irish cream liqueur, and Irish whiskey.",
+          "price": 99.99,
+		  "img": "/images/irish coffee.jpg"
+        },
+        {
+          "name": "Vietnamese Coffee",
+		  "ID": 24,
+          "description": "Bold, phin-drip coffee combined with sweet condensed milk.",
+          "price": 109.99,
+		  "img": "/images/vietnamese.jpg"
+        },
+		{
+          "name": "CEO classic blend",
+		  "ID": 25,
+          "description": "A classic blend of coffee beans of our own. ",
+          "price": 95.00,
+		  "img": "/images/ceo blend.jpg"
+        },
+        {
+          "name": "Cappuccino",
+		  "ID": 26,
+          "description": "a balanced ratio of espresso, steamed milk, and milk foam",
+          "price": 80.00,
+		  "img": "/images/cappuccino.jpg"
+        },
+		{
+          "name": "Espresso",
+		  "ID": 27,
+          "description": "1oz of highly concentrated coffee.",
+          "price": 45.00,
+		  "img": "/images/espresso.jpg"
+        },
+        {
+          "name": "Caramel Macchiato",
+		  "ID": 28,
+          "description": "Espresso added to milk topped with caramel syrup",
+          "price": 80.00,
+		  "img": "/images/caramel macchiato.jpg"	
+        },
+		{
+          "name": "Iced Latte",
+		  "ID": 29,
+          "description": "Rich, creamy beverage with a more subtle espresso taste.",
+          "price": 85.00,
+		  "img": "/images/iced latte.jpg"
+        },
+		{
+          "name": "Classic Latte",
+		  "ID": 30,
+          "description": "Rich, creamy beverage with a more subtle espresso taste. Topped with a layer of foam art.",
+          "price": 100.00,
+		  "img": "/images/latte.jpg"
+        },
+		{
+          "name": "Affogato",
+		  "ID": 31,
+          "description": "espresso with vanilla ice cream.",
+          "price": 100.00,
+		  "img": "/images/Affogato.jpg"
+        }
+      ]
+    },
+	
+	
+	
+	{
+      "name": "Best in Cold Brew",
+      "types": 
+	  [
+        {
+          "name": "Iced Americano",
+		  "ID": 21,
+          "description": "A shot of espresso diluted with your brewing desire.",
+          "price": 79.99,
+		  "img": "/images/iced americano.jpg"
+        },
+        {
+          "name": "Vietnamese Coffee",
+		  "ID": 24,
+          "description": "Bold, phin-drip coffee combined with sweet condensed milk.",
+          "price": 109.99,
+		  "img": "/images/vietnamese.jpg"
+        },
+		{
+          "name": "CEO classic blend",
+		  "ID": 25,
+          "description": "A classic blend of coffee beans of our own. ",
+          "price": 95.00,
+		  "img": "/images/ceo blend.jpg"
+        },
+        {
+          "name": "Cappuccino",
+		  "ID": 26,
+          "description": "a balanced ratio of espresso, steamed milk, and milk foam",
+          "price": 80.00,
+		  "img": "/images/cappuccino.jpg"
+        },
+		{
+          "name": "Espresso",
+		  "ID": 27,
+          "description": "1oz of highly concentrated coffee.",
+          "price": 45.00,
+		  "img": "/images/espresso.jpg"
+        },
+        {
+          "name": "Caramel Macchiato",
+		  "ID": 28,
+          "description": "Espresso added to milk topped with caramel syrup",
+          "price": 80.00,
+		  "img": "/images/caramel macchiato.jpg"	
+        },
+		{
+          "name": "Iced Latte",
+		  "ID": 29,
+          "description": "Rich, creamy beverage with a more subtle espresso taste.",
+          "price": 85.00,
+		  "img": "/images/iced latte.jpg"
+        },
+		{
+          "name": "Classic Latte",
+		  "ID": 30,
+          "description": "Rich, creamy beverage with a more subtle espresso taste. Topped with a layer of foam art.",
+          "price": 100.00,
+		  "img": "/images/latte.jpg"
+        },
+		{
+          "name": "Affogato",
+		  "ID": 31,
+          "description": "espresso with vanilla ice cream.",
+          "price": 100.00,
+		  "img": "/images/Affogato.jpg"
+        }
+      ]
+    },
+	
+
+	
+	{
+      "name": "Best in Hot Brew",
+      "types": 
+	  [
+        {
+          "name": "Irish Coffee",
+		  "ID": 23,
+          "description": "Irish Coffee",
+          "price": 99.99,
+		  "img": "/images/irish coffee.jpg"
+        },
+        {
+          "name": "Vietnamese Coffee",
+		  "ID": 24,
+          "description": "Bold, phin-drip coffee combined with sweet condensed milk.",
+          "price": 109.99,
+		  "img": "/images/vietnamese.jpg"
+        },
+		{
+          "name": "Americano",
+		  "ID": 22,
+          "description": "A shot of espresso diluted with your brewing desire.",
+          "price": 79.99,
+		  "img": "/images/hot americano.jpg"
+        },
+		{
+          "name": "CEO classic blend",
+		  "ID": 25,
+          "description": "A classic blend of coffee beans of our own.",
+          "price": 95.00,
+		  "img": "/images/ceo blend.jpg"
+        },
+		{
+          "name": "Classic Latte",
+		  "ID": 30,
+          "description": "Rich, creamy beverage with a more subtle espresso taste. Topped with a layer of foam with art.",
+          "price": 100.00,
+		  "img": "/images/latte.jpg"
+        },
+		{
+          "name": "Cappuccino",
+		  "ID": 26,
+          "description": "A balanced ratio of espresso, steamed milk, and milk foam.",
+          "price": 80.00,
+		  "img": "/images/cappuccino.jpg"
+        },
+		{
+          "name": "Espresso",
+		  "ID": 27,
+          "description": "1oz of highly concentrated coffee.",
+          "price": 45.00,
+		  "img": "/images/espresso.jpg"
+        },
+		{
+          "name": "Caramel Macchiato",
+		  "ID": 28,
+          "description": "Espresso added to milk topped with caramel syrup.",
+          "price": 80.00,
+		  "img": "/images/caramel macchiato.jpg"	
+        }
+      ]
+    },
+	
+	
+	
+	
+	    {
+      "name": "Fruit Drinks",
+      "types": [
+        {
+          "name": "Strawberry Punch",
+		  "ID": 32,
+          "description": "Strawberry juice with bits of real strawberries.",
+          "price": 150.00,
+		  "img": "/images/strawberry.jpg"
+        },
+        {
+          "name": "Dragon Fruit Punch",
+		  "ID": 33,
+          "description": "Dragon Fruit juice with bits of real dragon fruit.",
+          "price": 150.00,
+		  "img": "/images/dragonfruit.jpg"
+        },
+        {
+          "name": "Watermelon Punch",
+		  "ID": 34,
+          "description": "Watermelon juice with a slice of watermelon.",
+          "price": 130.00,
+		  "img": "/images/watermelon.jpg"
+        },
+		{
+          "name": "Cantaloupe Punch",
+		  "ID": 35,
+          "description": "Cantaloupe juice with a slice of cantaloupe.",
+          "price": 130.00,
+		  "img": "/images/Cantaloupe.jpg"
+        },
+		{
+          "name": "Kiwi Punch",
+		  "ID": 36,
+          "description": "Kiwi juice with bits of real kiwis.",
+          "price": 150.00,
+		  "img": "/images/Kiwi.jpg"
+        },
+		{
+          "name": "Peach Ginger Punch",
+		  "ID": 37,
+          "description": "Peach juice blended with ginger, mixed with peach slices.",
+          "price": 160.00,
+		  "img": "/images/peach.jpg"
+        },
+		{
+          "name": "Lychee Punch",
+		  "ID": 38,
+          "description": "Lychee Juice with real lychee bits.",
+          "price": 140.00,
+		  "img": "/images/lychee.jpg"
+        },
+		{
+          "name": "Mixed Berry Punch",
+		  "ID": 39,
+          "description": "Mixed Berry Juice with bits of in-season berries.",
+          "price": 170.00,
+		  "img": "/images/mixed berry.jpg"
+        },
+		{
+          "name": "Honeydew Punch",
+		  "ID": 40,
+          "description": "Honeydew juice with a slice of honeydew.",
+          "price": 130.00,
+		  "img": "/images/honeydew.jpg"
+        },
+		{
+          "name": "Cucumber Mint Punch",
+		  "ID": 41,
+          "description": "Cucumber juice blended with mint, mixed with cucumber slices.",
+          "price": 120.00,
+		  "img": "/images/cucumber mint.jpg"
+        }
+      ]
+    },
+	
+	    {
+      "name": "With Cream/Milk",
+      "types": [
+        {
+          "name": "Irish Coffee Decaf",
+		  "ID": 3,
+          "description": "Hot caffeinated cocktail consisting of coffee, Irish cream liqueur, and Irish whiskey.",
+          "price": 99.99,
+		  "img": "/images/irish coffee.jpg"
+        },
+		{
+          "name": "Vietnamese Coffee Decaf",
+		  "ID": 4,
+          "description": "Bold, phin-drip decaffeinated coffee combined with sweet condensed milk.",
+          "price": 109.99,
+		  "img": "/images/vietnamese.jpg"
+        },
+		{
+          "name": "Cappuccino Decaf",
+		  "ID": 6,
+          "description": "A balanced ratio of decaffeinated espresso, steamed milk, and milk foam.",
+          "price": 80.00,
+		  "img": "/images/cappuccino.jpg"
+        },
+		{
+          "name": "Caramel Macchiato Decaf",
+		  "ID": 8,
+          "description": "Decaffeinated espresso added to milk topped with caramel syrup.",
+          "price": 80.00,
+		  "img": "/images/caramel macchiato.jpg"	
+        },
+		{
+          "name": "Iced Latte Decaf",
+		  "ID": 9,
+          "description": "Rich, creamy beverage with a more subtle espresso taste.",
+          "price": 85.00,
+		  "img": "/images/iced latte.jpg"
+        },
+				{
+          "name": "Classic Latte Decaf",
+		  "ID": 10,
+          "description": "Rich, creamy beverage with a more subtle espresso taste. Topped with a layer of foam art.",
+          "price": 100.00,
+		  "img": "/images/latte.jpg"
+        },
+		{
+          "name": "Affogato Decaf",
+		  "ID": 11,
+          "description": "Decaffeinated espresso with vanilla ice cream.",
+          "price": 100.00,
+		  "img": "/images/Affogato.jpg"
+        },
+				{
+          "name": "Irish Coffee",
+		  "ID": 23,
+          "description": "Hot caffeinated cocktail consisting of coffee, Irish cream liqueur, and Irish whiskey.",
+          "price": 99.99,
+		  "img": "/images/irish coffee.jpg"
+        },
+        {
+          "name": "Vietnamese Coffee",
+		  "ID": 24,
+          "description": "Bold, phin-drip coffee combined with sweet condensed milk.",
+          "price": 109.99,
+		  "img": "/images/vietnamese.jpg"
+        },
+		{
+          "name": "Cappuccino",
+		  "ID": 26,
+          "description": "a balanced ratio of espresso, steamed milk, and milk foam",
+          "price": 80.00,
+		  "img": "/images/cappuccino.jpg"
+        },
+		        {
+          "name": "Caramel Macchiato",
+		  "ID": 28,
+          "description": "Espresso added to milk topped with caramel syrup",
+          "price": 80.00,
+		  "img": "/images/caramel macchiato.jpg"	
+        },
+		{
+          "name": "Iced Latte",
+		  "ID": 29,
+          "description": "Rich, creamy beverage with a more subtle espresso taste.",
+          "price": 85.00,
+		  "img": "/images/iced latte.jpg"
+        },
+		{
+          "name": "Classic Latte",
+		  "ID": 30,
+          "description": "Rich, creamy beverage with a more subtle espresso taste. Topped with a layer of foam art.",
+          "price": 100.00,
+		  "img": "/images/latte.jpg"
+        },
+		{
+          "name": "Affogato",
+		  "ID": 31,
+          "description": "espresso with vanilla ice cream.",
+          "price": 100.00,
+		  "img": "/images/Affogato.jpg"
+        },
+		{
+          "name": "Vanilla Bean Frappe",
+		  "ID": 12,
+          "description": "A blend of 3 scoops of vanilla bean powder, steamed milk, ice, and creme frappe syrup. Topped with whipped cream and vanilla syrup.",
+          "price": 130.00,
+		  "img": "/images/vanilla.jpg"
+        },
+		{
+          "name": "Caramel Crunch Frappe",
+		  "ID": 13,
+          "description": "A blend of caramel syrup added to milk and blended with ice, layered with dark caramel sauce. Topped with whipped cream and caramel-sugar topping.",
+          "price": 130.00,
+		  "img": "/images/caramel crunch.jpg"
+        },
+		{
+          "name": "Pumpkin Spice Frappe",
+		  "ID": 14,
+          "description": "A blend of pumpkin with cinnamon, nutmeg, ginger, cloves, and allspice, sweet and creamy steamed milk, and ice. Topped with whipped cream and pumpkin- spice powder.",
+          "price": 150.00,
+		  "img": "/images/pumpkin.jpg"
+        },
+		{
+          "name": "Pistachio Frappe",
+		  "ID": 15,
+          "description": "A blend of sweet pistachio sauce, steamed milk, ice, and creme frappe syrup. Topped with whipped cream and pistachio nuts.",
+          "price": 150.00,
+		  "img": "/images/pistachio.jpg"
+        },
+		{
+          "name": "White Chocolate Frappe",
+		  "ID": 16,
+          "description": "A blend of white chocolate mocha sauce, steamed milk, ice, and creme frappe syrup. Topped with whipped cream and shaved white chocolate.",
+          "price": 130.00,
+		  "img": "/images/white chocolate.jpg"
+
+        },
+		{
+          "name": "Strawberry Frappe",
+		  "ID": 17,
+          "description": "A blend of strawberry puree, steamed milk, ice, and creme frappe syrup. Topped with whipped cream and bits of strawberry.",
+          "price": 160.00,
+		  "img": "/images/strawberry.jpg"
+        },
+		{
+          "name": "Caramel Frappuccino",
+		  "ID": 18,
+          "description": "Caramel syrup with coffee, chocolate, milk, and whipped cream.",
+          "price": 129.99,
+		  "img": "/images/caramel frappe p.jpg"
+        },
+		{
+          "name": "Caramel Frappe Deluxe",
+		  "ID": 19,
+          "description": "Syrup, cold milk and ice, with a swirl of whipped cream.",
+          "price": 189.99,
+		  "img": "/images/caramel frappe d.jpg"
+        },
+		{
+          "name": "Chocolate Frappe",
+		  "ID": 20,
+          "description": "A coffee, milk, and chocolate syrup, topped with whipped cream.",
+          "price": 149.99,
+		  "img": "/images/chocolate frappe.jpg"
+        }
+      ]
+    },
+	
+	
+	
+	    {
+      "name": "All",
+      "types": [
+		{
+          "name": "Iced Americano Decaf",
+		  "ID": 1,
+          "description": "A shot of decaffeinated espresso diluted with your brewing desire.",
+          "price": 79.99,
+		  "img": "/images/iced americano.jpg"
+		  
+        },
+        {
+          "name": "Americano Decaf",
+		  "ID": 2,
+          "description": "A shot of decaffeinated espresso diluted with your brewing desire.",
+          "price": 79.99,
+		  "img": "/images/hot americano.jpg"
+        },
+        {
+          "name": "Irish Coffee Decaf",
+		  "ID": 3,
+          "description": "Hot caffeinated cocktail consisting of coffee, Irish cream liqueur, and Irish whiskey.",
+          "price": 99.99,
+		  "img": "/images/irish coffee.jpg"
+        },
+		{
+          "name": "Vietnamese Coffee Decaf",
+		  "ID": 4,
+          "description": "Bold, phin-drip decaffeinated coffee combined with sweet condensed milk.",
+          "price": 109.99,
+		  "img": "/images/vietnamese.jpg"
+        },
+		{
+          "name": "CEO Classic Blend Decaf",
+		  "ID": 5,
+          "description": "A classic blend of decaffeinated coffee beans of our own.",
+          "price": 95.00,
+		  "img": "/images/ceo blend.jpg"
+        },
+		{
+          "name": "Cappuccino Decaf",
+		  "ID": 6,
+          "description": "A balanced ratio of decaffeinated espresso, steamed milk, and milk foam.",
+          "price": 80.00,
+		  "img": "/images/cappuccino.jpg"
+        },
+		{
+          "name": "Espresso Decaf",
+		  "ID": 7,
+          "description": "1oz of highly concentrated decaffeinated coffee.",
+          "price": 45.00,
+	      "img": "/images/espresso.jpg"	
+        },
+		{
+          "name": "Caramel Macchiato Decaf",
+		  "ID": 8,
+          "description": "Decaffeinated espresso added to milk topped with caramel syrup.",
+          "price": 80.00,
+		  "img": "/images/caramel macchiato.jpg"	
+        },
+		{
+          "name": "Iced Latte Decaf",
+		  "ID": 9,
+          "description": "Rich, creamy beverage with a more subtle espresso taste.",
+          "price": 85.00,
+		  "img": "/images/iced latte.jpg"
+        },
+		{
+          "name": "Classic Latte Decaf",
+		  "ID": 10,
+          "description": "Rich, creamy beverage with a more subtle espresso taste. Topped with a layer of foam art.",
+          "price": 100.00,
+		  "img": "/images/latte.jpg"
+        },
+		{
+          "name": "Affogato Decaf",
+		  "ID": 11,
+          "description": "Decaffeinated espresso with vanilla ice cream.",
+          "price": 100.00,
+		  "img": "/images/Affogato.jpg"
+        },
+		{
+          "name": "Iced Americano",
+		  "ID": 21,
+          "description": "A shot of espresso diluted with your brewing desire.",
+          "price": 79.99,
+		  "img": "/images/iced americano.jpg"
+        },
+        {
+          "name": "Americano",
+		  "ID": 22,
+          "description": "A shot of espresso diluted with your brewing desire.",
+          "price": 79.99,
+		  "img": "/images/hot americano.jpg"
+        },
+		{
+          "name": "Irish Coffee",
+		  "ID": 23,
+          "description": "Hot caffeinated cocktail consisting of coffee, Irish cream liqueur, and Irish whiskey.",
+          "price": 99.99,
+		  "img": "/images/irish coffee.jpg"
+        },
+        {
+          "name": "Vietnamese Coffee",
+		  "ID": 24,
+          "description": "Bold, phin-drip coffee combined with sweet condensed milk.",
+          "price": 109.99,
+		  "img": "/images/vietnamese.jpg"
+        },
+		{
+          "name": "CEO classic blend",
+		  "ID": 25,
+          "description": "A classic blend of coffee beans of our own. ",
+          "price": 95.00,
+		  "img": "/images/ceo blend.jpg"
+        },
+        {
+          "name": "Cappuccino",
+		  "ID": 26,
+          "description": "a balanced ratio of espresso, steamed milk, and milk foam",
+          "price": 80.00,
+		  "img": "/images/cappuccino.jpg"
+        },
+		{
+          "name": "Espresso",
+		  "ID": 27,
+          "description": "1oz of highly concentrated coffee.",
+          "price": 45.00,
+		  "img": "/images/espresso.jpg"
+        },
+        {
+          "name": "Caramel Macchiato",
+		  "ID": 28,
+          "description": "Espresso added to milk topped with caramel syrup",
+          "price": 80.00,
+		  "img": "/images/caramel macchiato.jpg"	
+        },
+		{
+          "name": "Iced Latte",
+		  "ID": 29,
+          "description": "Rich, creamy beverage with a more subtle espresso taste.",
+          "price": 85.00,
+		  "img": "/images/iced latte.jpg"
+        },
+		{
+          "name": "Classic Latte",
+		  "ID": 30,
+          "description": "Rich, creamy beverage with a more subtle espresso taste. Topped with a layer of foam art.",
+          "price": 100.00,
+		  "img": "/images/latte.jpg"
+        },
+		{
+          "name": "Affogato",
+		  "ID": 31,
+          "description": "espresso with vanilla ice cream.",
+          "price": 100.00,
+		  "img": "/images/Affogato.jpg"
+        },
+		{
+          "name": "Vanilla Bean Frappe",
+		  "ID": 12,
+          "description": "A blend of 3 scoops of vanilla bean powder, steamed milk, ice, and creme frappe syrup. Topped with whipped cream and vanilla syrup.",
+          "price": 130.00,
+		  "img": "/images/vanilla.jpg"
+        },
+		{
+          "name": "Caramel Crunch Frappe",
+		  "ID": 13,
+          "description": "A blend of caramel syrup added to milk and blended with ice, layered with dark caramel sauce. Topped with whipped cream and caramel-sugar topping.",
+          "price": 130.00,
+		  "img": "/images/caramel crunch.jpg"
+        },
+		{
+          "name": "Pumpkin Spice Frappe",
+		  "ID": 14,
+          "description": "A blend of pumpkin with cinnamon, nutmeg, ginger, cloves, and allspice, sweet and creamy steamed milk, and ice. Topped with whipped cream and pumpkin- spice powder.",
+          "price": 150.00,
+		  "img": "/images/pumpkin.jpg"
+        },
+		{
+          "name": "Pistachio Frappe",
+		  "ID": 15,
+          "description": "A blend of sweet pistachio sauce, steamed milk, ice, and creme frappe syrup. Topped with whipped cream and pistachio nuts.",
+          "price": 150.00,
+		  "img": "/images/pistachio.jpg"
+        },
+		{
+          "name": "White Chocolate Frappe",
+		  "ID": 16,
+          "description": "A blend of white chocolate mocha sauce, steamed milk, ice, and creme frappe syrup. Topped with whipped cream and shaved white chocolate.",
+          "price": 130.00,
+		  "img": "/images/white chocolate.jpg"
+
+        },
+		{
+          "name": "Strawberry Frappe",
+		  "ID": 17,
+          "description": "A blend of strawberry puree, steamed milk, ice, and creme frappe syrup. Topped with whipped cream and bits of strawberry.",
+          "price": 160.00,
+		  "img": "/images/strawberry.jpg"
+        },
+		{
+          "name": "Caramel Frappuccino",
+		  "ID": 18,
+          "description": "Caramel syrup with coffee, chocolate, milk, and whipped cream.",
+          "price": 129.99,
+		  "img": "/images/caramel frappe p.jpg"
+        },
+		{
+          "name": "Caramel Frappe Deluxe",
+		  "ID": 19,
+          "description": "Syrup, cold milk and ice, with a swirl of whipped cream.",
+          "price": 189.99,
+		  "img": "/images/caramel frappe d.jpg"
+        },
+		{
+          "name": "Chocolate Frappe",
+		  "ID": 20,
+          "description": "A coffee, milk, and chocolate syrup, topped with whipped cream.",
+          "price": 149.99,
+		  "img": "/images/chocolate frappe.jpg"
+        },
+		{
+          "name": "Strawberry Punch",
+		  "ID": 32,
+          "description": "Strawberry juice with bits of real strawberries.",
+          "price": 150.00,
+		  "img": "/images/strawberry.jpg"
+        },
+        {
+          "name": "Dragon Fruit Punch",
+		  "ID": 33,
+          "description": "Dragon Fruit juice with bits of real dragon fruit.",
+          "price": 150.00,
+		  "img": "/images/dragonfruit.jpg"
+        },
+        {
+          "name": "Watermelon Punch",
+		  "ID": 34,
+          "description": "Watermelon juice with a slice of watermelon.",
+          "price": 130.00,
+		  "img": "/images/watermelon.jpg"
+        },
+		{
+          "name": "Cantaloupe Punch",
+		  "ID": 35,
+          "description": "Cantaloupe juice with a slice of cantaloupe.",
+          "price": 130.00,
+		  "img": "/images/Cantaloupe.jpg"
+        },
+		{
+          "name": "Kiwi Punch",
+		  "ID": 36,
+          "description": "Kiwi juice with bits of real kiwis.",
+          "price": 150.00,
+		  "img": "/images/Kiwi.jpg"
+        },
+		{
+          "name": "Peach Ginger Punch",
+		  "ID": 37,
+          "description": "Peach juice blended with ginger, mixed with peach slices.",
+          "price": 160.00,
+		  "img": "/images/peach.jpg"
+        },
+		{
+          "name": "Lychee Punch",
+		  "ID": 38,
+          "description": "Lychee Juice with real lychee bits.",
+          "price": 140.00,
+		  "img": "/images/lychee.jpg"
+        },
+		{
+          "name": "Mixed Berry Punch",
+		  "ID": 39,
+          "description": "Mixed Berry Juice with bits of in-season berries.",
+          "price": 170.00,
+		  "img": "/images/mixed berry.jpg"
+        },
+		{
+          "name": "Honeydew Punch",
+		  "ID": 40,
+          "description": "Honeydew juice with a slice of honeydew.",
+          "price": 130.00,
+		  "img": "/images/honeydew.jpg"
+        },
+		{
+          "name": "Cucumber Mint Punch",
+		  "ID": 41,
+          "description": "Cucumber juice blended with mint, mixed with cucumber slices.",
+          "price": 120.00,
+		  "img": "/images/cucumber mint.jpg"
+        }
+      ]
+    }
+  ]
+}

@@ -614,13 +614,14 @@ svg{
   text-align: center;
   flex-direction: row;
   padding: 0 50px 0 50px;
+  
 }
 .cart-item img{ 
   height: 200px;
   width: 200px;
   border-top-left-radius: 30px;
   border-bottom-right-radius: 30px;
-  
+  box-shadow: 0 5px 10px #0B0014;
 }
 
 
@@ -724,6 +725,10 @@ input[type=submit]:hover {
 .menu-item:hover{
   color: var(--clr-accent-300);
 }
+#menu-list .selected:hover{
+  color: var(--clr-accent-100);
+}
+
 @font-face {
   font-family: 'Lazord Mono';
   src: url('Lazord_Mono_Fonts.ttf') format('truetype');
@@ -769,7 +774,7 @@ input[type=submit]:hover {
   border-radius: 5px;
 }
 
-#registerForm input[type=text] {
+#registerForm input[type=text], #registerForm input[type=password]{
   width: 100%;
   padding: 12px 20px;
   margin: 4px 0; /* reduced margin */

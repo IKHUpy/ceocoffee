@@ -1,0 +1,16 @@
+{
+    "users" : [
+        {   
+            "id": 0,
+            "email":"",
+            "fullname":"",
+            "address":"",
+            "city":"",
+            "phone":"",
+            "zipcode":"",
+            "cardnumber":"",
+            "validthru":"",
+            "ccv":""
+        }
+    ]
+}

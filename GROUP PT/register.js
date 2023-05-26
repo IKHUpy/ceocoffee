@@ -1,4 +1,4 @@
-let userss = JSON.parse(localStorage.getItem('userss')) || [];
+let userss = JSON.parse(localStorage.getItem('users')) || [];
 
   document.getElementById('registeruser').addEventListener('click', function (event){
     event.preventDefault();
@@ -15,16 +15,18 @@ let userss = JSON.parse(localStorage.getItem('userss')) || [];
         let i = 0;
         let idFound = false;
         console.log(data);
-        while (!idFound) {
-            idFound = true;
-            data.users.forEach(user1 => {
-                if (user1.id === i) {
-                    idFound = false;
-                }
-            });
-            if (!idFound) {
-                i++;
-            }
+        if (data !== null){
+          while (!idFound) {
+              idFound = true;
+              data.users.forEach(user1 => {
+                  if (user1.id === i) {
+                      idFound = false;
+                  }
+              });
+              if (!idFound) {
+                  i++;
+              }
+          }
         }
         let newdata = {
           id: i,
@@ -39,10 +41,11 @@ let userss = JSON.parse(localStorage.getItem('userss')) || [];
           validthru: document.getElementById('valid').value,
           ccv: document.getElementById('cvv').value
         };
-        
         userss.push(newdata);
-        localStorage.setItem('userss', JSON.stringify('userss'));
+        localStorage.setItem('users', JSON.stringify(userss));
         console.log(userss);
+        alert('Congratulations! You are sucessfully register!')
+        window.location.href = '/login.html';
         })
       
     } else {

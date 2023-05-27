@@ -752,6 +752,14 @@ input[type=submit]:hover {
   box-shadow: 0px 2px 4px #0B0014;
   cursor: pointer;
 }
+.cart-items button {
+  background-color: #0B0014;
+  color: var(--clr-accent-250);
+  padding: 15px 40px 15px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px #0B0014;
+  cursor: pointer;
+}
 
 .login-container {
   width: 450px; /* expanded width */
@@ -832,4 +840,104 @@ input[type=submit]:hover {
 
 #registerForm label {
   margin-left: 5px;
+}
+.checkout-container {
+  display: grid; 
+  grid-template-columns: 3fr 2fr; 
+}
+.bill-details{
+  text-align: left;
+}
+.cart-items{
+  padding-bottom: 80px;
+}
+.cart-items h3{
+  text-align: left;
+  font-size: 35px;
+}
+.linear-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: max-content;
+  max-width: 700px;
+  
+  max-height: 200px;
+
+
+  justify-content: center;
+  text-align: center;
+
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  overflow: hidden;
+  margin: 25px 0 25px 60px;
+}
+.box-element {
+display: flex;
+  flex-direction: row;
+  
+  flex-wrap: wrap;
+  width: max-content;
+  max-width: 500px;
+  max-height: 30px;
+  min-width: 600px;
+
+  justify-content: center;
+  text-align: center;
+
+}
+.box-element > * {
+  margin: 2px 9px;
+}
+.linear-box img {
+  height: 100px;
+  width: 100px;
+}
+.sticky-bill {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  border: 2px dotted #21242b;
+  padding: 40px;
+}
+.sticky-bill span{
+  position: absolute;
+  text-align: right;
+  right: 40px;
+}
+.sticky-bill p {
+  display: flex;
+  flex-direction: row;
+}
+.sticky-bill h3 {
+  font-size: 30px;
+}
+
+.sticky-bill > p {
+  padding: 5px 0 5px 0;
+}
+
+.paypay {
+  border-top: 3px solid #cb6a08;
+  border-bottom: 3px solid #cb6a08;
+  
+  font-size: 25px;
+}
+.disclaimer {
+  text-align: center;
+  padding: 14px 0 14px 0;
+}
+.sticky-bill button {
+  background-color: #0B0014;
+  color: var(--clr-accent-250);
+  padding: 15px 40px 15px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px #0B0014;
+  cursor: pointer;
+  font-weight: bold;
+}
+.checkout-container button:hover{
+  background-color: #362102;
 }

@@ -1,6 +1,6 @@
-
+let cart = JSON.parse(localStorage.getItem('cart'));
 $(document).ready(function() {
-    let cart = JSON.parse(localStorage.getItem('cart'));
+    console.log('cart : ', cart);
     let totalprice = 0;
     let pricehtml = '';
     var decrementButton;
@@ -28,7 +28,7 @@ $(document).ready(function() {
                                 <h4 style="font-size:30px; line-height: 2.5;">${item.name}</h4>
                                 
                                 <div class="flex-container" style="justify-content:center;">
-                                    <p style="display:flex; flex-direction:column;"><span style="font-weight:bold; font-size: 18px; margin: 0 10px 0 10px">Brew:</span> ${item.temperature}</p>
+                                    <p style="display:flex; flex-direction:column;"><span style="font-weight:bold; font-size: 18px; margin: 0 10px 0 10px; min-height: 54px;">Brew:</span> ${item.temperature}</p>
                                     <p style="display:flex; flex-direction:column;"><span style="font-weight:bold; font-size: 18px; margin: 0 10px 0 10px">Cup Size:</span> ${item.cupSize}</p>
                                     <p style="display:flex; flex-direction:column;"><span style="font-weight:bold; font-size: 18px; margin: 0 10px 0 10px">Sugar Level:</span> ${item.sugarLevel}</p>
                                     <p style="display:flex; flex-direction:column;"><span style="font-weight:bold; font-size: 18px; margin: 0 10px 0 10px">Ice Level:</span> ${item.iceLevel}</p>
@@ -141,3 +141,6 @@ function clearCart() {
   location.reload();
 }
 
+document.getElementById('checkout').addEventListener('click', function(){
+    window.location.href = '/checkoutpage.html';
+});

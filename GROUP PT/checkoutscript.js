@@ -1,8 +1,5 @@
 let cart = JSON.parse(localStorage.getItem('cart'));
-console.log('cart : ', cart);
 window.onload = function() {
-    console.log('checkout logged');
-    //cupsize icelevel name price quantity temperature sugarlevel img
     let itemhtml = '';
     let val = 0;
     let vat = 0;
@@ -30,7 +27,7 @@ window.onload = function() {
                     <p>${item.cupSize}</p> 
                 </div>
                 <div>Price: 
-                    <p>${item.price}</p> 
+                    <p> <sup>&#x20B1;</sup>${item.price}</p> 
                 </div>
                 <div>Quantity: 
                     <p>${item.quantity}</p> 

@@ -14,7 +14,6 @@ let userss = JSON.parse(localStorage.getItem('users')) || [];
         
         let i = 0;
         let idFound = false;
-        console.log(data);
         if (data !== null){
           while (!idFound) {
               idFound = true;
@@ -43,7 +42,6 @@ let userss = JSON.parse(localStorage.getItem('users')) || [];
         };
         userss.push(newdata);
         localStorage.setItem('users', JSON.stringify(userss));
-        console.log(userss);
         alert('Congratulations! You are sucessfully register!')
         window.location.href = '/login.html';
         })

@@ -1,71 +1,13 @@
 let cart = JSON.parse(localStorage.getItem('cart')) || [];
-//$(".cart-").click(function() {
-//    console.log('qwe');
-//    let productContainer = $(this).closest('.product-profile');
-//    let productId = productContainer.attr("id");
-//    let productName = productContainer.find(".product-profile-name").text();
-//    let productPrice = productContainer.find(".product-profile-price").text();
-//    let temperature = getSelectedElementText(productId, "temperature");
-//    let cupSize = getSelectedElementText(productId, "cup-size");
-//    let sugarLevel = getSelectedElementText(productId, "sugar-level");
-//
-//    if (!temperature || !cupSize || !sugarLevel) {
-//        alert("Please select all options before ordering.");
-//        return;
-//    }
-//
-//    let productData = {
-//        id: productId,
-//        name: productName,
-//        price: productPrice,
-//        temperature: temperature,
-//        cupSize: cupSize,
-//        sugarLevel: sugarLevel
-//    };
-//
-//    cart.push(productData);
-//    console.log("DATA : ", productData);
-//    console.log("CART : ", cart);
-//    
-//    localStorage.setItem('cart', JSON.stringify(cart));
-//
-//    alert(`Product "${productName}" has been added to your cart.`);
-//    updateCartDisplay();
-//});
-//
-//$(document).ready(function() {
-//    let cart = JSON.parse(localStorage.getItem('cart'));
-//
-//    if (cart && cart.length > 0) {
-//        let cartHtml = '';
-//        for (let i = 0; i < cart.length; i++) {
-//            let item = cart[i];
-//            cartHtml += `
-//                <div class="cart-item">
-//                    <h4>${item.name}</h4>
-//                    <p>Price: ${item.price}</p>
-//                    <p>Temperature: ${item.temperature}</p>
-//                    <p>Cup Size: ${item.cupSize}</p>
-//                    <p>Sugar Level: ${item.sugarLevel}</p>
-//                </div>
-//            `;
-//        }
-//        $('#cart-display').html(cartHtml);
-//    } else {
-//        $('#cart-display').html('<p>Your cart is empty.</p>');
-//    }
-//});
-
-
 var isopen = false;
 var id;
 var iddigit;
 window.onload = function() {
+  
     const menuItems = document.querySelectorAll('.menu-item');
     let catego = 'All'
     menuItems.forEach((item, index) => {
       item.addEventListener('click', (e) => {
-          console.log(item.innerText);
           let catego =  item.innerText;
           fetchset(catego);
         menuItems.forEach((item) => {
@@ -86,7 +28,6 @@ window.onload = function() {
             var previews = document.getElementById(`overlay2-${iddigit}`);
             previews.style.display = 'block';
             
-            console.log("order-button- is clicked'");
             isopen = true;
         }    
     });
@@ -96,7 +37,6 @@ window.onload = function() {
             if ($(event.target).closest('.preview').length){
             }
             else{
-                console.log('close');
                 var previews = document.getElementById(`overlay2-${iddigit}`);
                 previews.style.display = 'none';
                 
@@ -110,28 +50,36 @@ window.onload = function() {
 var parentLayer = document.querySelector('.parent-layer');
 var overlay = document.querySelector('.overlay');
 
-parentLayer.addEventListener('mouseover', function() {
-    overlay.style.opacity = '100%';
-    overlay.style.height = '60px';
-    overlay.style.bottom = '0';
-});
-
-parentLayer.addEventListener('mouseout', function() {
-    if (isopen === true){
-        overlay.style.opacity = '0%';
-        overlay.style.height = '0';
+if (parentLayer) {
+  parentLayer.addEventListener('mouseover', function() {
+    let overlay = document.getElementById('overlay');
+    if (overlay) {
+      overlay.style.opacity = '100%';
+      overlay.style.height = '60px';
+      overlay.style.bottom = '0';
     }
-});
-overlay.addEventListener('mouseover', function() {
-    overlay.style.backgroundColor = 'var(--clr-accent-250)';
-    overlay.style.color = 'black';
-    overlay.style.cursor = 'pointer';
-});
+  });
 
-overlay.addEventListener('mouseout', function() {
-    overlay.style.backgroundColor = 'var(--clr-accent-300)';
-    overlay.style.color = '';
-});
+  parentLayer.addEventListener('mouseout', function() {
+      if (isopen === true){
+          overlay.style.opacity = '0%';
+          overlay.style.height = '0';
+      }
+  });
+}
+
+if (overlay) {
+  overlay.addEventListener('mouseover', function() {
+      overlay.style.backgroundColor = 'var(--clr-accent-250)';
+      overlay.style.color = 'black';
+      overlay.style.cursor = 'pointer';
+  });
+
+  overlay.addEventListener('mouseout', function() {
+      overlay.style.backgroundColor = 'var(--clr-accent-300)';
+      overlay.style.color = '';
+  });
+}   
 
 window.addEventListener('click', function(event) {
     var dropdowns = document.getElementsByClassName('dropdown-content');
@@ -305,7 +253,6 @@ function fetchset(catego) {
                               current[0].classList.remove('selected');
                           }
                           target.classList.add('selected');
-                          console.log(target.textContent);
                           if (target.textContent === 'HOT') {
                               
                               let iceChoice = document.getElementById(`ice-section-${type.ID}`);
@@ -371,32 +318,24 @@ function fetchset(catego) {
                           quantity: 1
                       };
                       if (brewSelectedValue === "HOT" && (brewSelectedValue || cupSelected || sugarSelected)) {
-                          console.log('HOT CHOICE');
                           cart.push(productData);
-                          console.log("DATA : ", productData);
                           localStorage.setItem('cart', JSON.stringify(cart));
-                          console.log("CART : ", cart.length);
                           alert(`Product "${type.name}" has been added to your cart.`);
                           updateCartDisplay();
-                          console.log('Selected values:', brewSelectedValue, cupSelectedValue, sugarSelectedValue);
   
                       }
                       else if (!brewSelected || !iceSelected || !cupSelected || !sugarSelected) {
                           alert('Please select something for all choices.');
                       } 
                       else {
-                          console.log('COLD CHOICE');
                           let iceSelectedValue = iceSelected.innerText;
                           productData.iceLevel = iceSelectedValue;
                           
                           cart.push(productData);
-                          console.log("DATA : ", productData);
                           localStorage.setItem('cart', JSON.stringify(cart));
                           
                           alert(`Product "${type.name}" has been added to your cart.`);
-                          console.log('Selected values:', brewSelectedValue, iceSelectedValue, cupSelectedValue, sugarSelectedValue);
                       }
-                      console.log(cart);
                   });
               });
           }        
@@ -405,12 +344,12 @@ function fetchset(catego) {
   .catch(function() {
       console.log('An error occurred while trying to fetch the JSON file');
   });
+
 }
 
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
-        let j = Math.floor(Math.random() * (i + 1)); // random index from 0 to i
-        // swap elements array[i] and array[j]
+        let j = Math.floor(Math.random() * (i + 1)); 
         [array[i], array[j]] = [array[j], array[i]];
     }
     return array;

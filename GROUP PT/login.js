@@ -10,7 +10,6 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         return user.email === email && user.password === password;
     });
 
-    // If a matching user is found or the inputs are 'admin', allow login
     if (user || (email === 'admin' && password === 'admin')) {
         alert('Logged in successfully');
     } else {

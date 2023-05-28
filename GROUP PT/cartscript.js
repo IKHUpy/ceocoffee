@@ -1,6 +1,27 @@
 let cart = JSON.parse(localStorage.getItem('cart'));
 $(document).ready(function() {
-    console.log('cart : ', cart);
+    
+    for (var i = 0; i < cart.length; i++){
+        for (var j = 0; j < cart.length; j++){
+          if (i !== j){
+            if (cart[i] && cart[j]){
+
+                if (
+                  cart[i].name === cart[j].name &&
+                  cart[i].temperature === cart[j].temperature &&
+                  cart[i].cupSize === cart[j].cupSize &&
+                  cart[i].sugarLevel === cart[j].sugarLevel &&
+                  cart[i].iceLevel === cart[j].iceLevel
+                ) {
+                  cart[i].quantity += 1;  
+                  delete cart[j];
+                  localStorage.setItem('cart', JSON.stringify(cart));
+                }
+            }
+          }
+        }
+      }
+      
     let totalprice = 0;
     let pricehtml = '';
     var decrementButton;
@@ -8,7 +29,6 @@ $(document).ready(function() {
     if (cart && cart.length > 0) {
         for (let i = 0; i < cart.length; i++) {
             if (cart[i] === null){
-                console.log('null in : ', i);
                 continue;
             } else if (cart[i].quantity === 0 ){
                 continue;
@@ -53,7 +73,6 @@ $(document).ready(function() {
                 quantity.innerHTML = cart[i].quantity;
 
                 totalprice += parseFloat(`${item.price}`);
-                console.log(i);
                 decrementButton = document.getElementById(`decrement-${i}`);
                 incrementButton = document.getElementById(`increment-${i}`);
                 
@@ -70,7 +89,6 @@ $(document).ready(function() {
 
                     let decrementButton = document.getElementById(`decrement-${cartid}`);
                     let valueElement = document.getElementById(`value-${cartid}`);
-                    console.log(valueElement, cartid, i);
                     if (valueElement) {
                         valueElement2 = parseInt(valueElement.innerText);
                         valueElement2++;
@@ -92,7 +110,6 @@ $(document).ready(function() {
                     let cart = JSON.parse(localStorage.getItem('cart'));
 
                     let pricetotal = document.getElementById('total-price');
-                    console.log(pricetotal);
                     let decrementButton = document.getElementById(`decrement-${cartid}`);
                     let valueElement = document.getElementById(`value-${cartid}`);
                     valueElement2 = parseInt(valueElement.innerHTML);
@@ -105,8 +122,6 @@ $(document).ready(function() {
                         for (var i = 0; i < cart.length; i++){
                             updatepricedecre += parseFloat(cart[i].quantity) * parseFloat(cart[i].price);
                         }
-                        console.log(parseFloat(cart[cartid].quantity), parseFloat(cart[cartid].price));
-                        console.log(updatepricedecre);
 
 
                         localStorage.setItem('cart', JSON.stringify(cart));
@@ -128,7 +143,6 @@ $(document).ready(function() {
         for (var j = 0; j < cart.length; j++){
             prices += parseFloat(cart[j].quantity) * parseFloat(cart[j].price);
         }
-        console.log(pricetotal);
         pricetotal.innerText = prices.toFixed(2);
 
     } else {

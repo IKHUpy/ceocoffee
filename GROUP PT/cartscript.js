@@ -140,9 +140,13 @@ $(document).ready(function() {
         $('#totalprice').html(pricehtml);
         let pricetotal = document.getElementById('total-price');
         let prices = 0;
-        for (var j = 0; j < cart.length; j++){
+
+        for (var j = 0; j < cart.length; j++){ 
+            if (cart[j]){
             prices += parseFloat(cart[j].quantity) * parseFloat(cart[j].price);
+            }
         }
+        
         pricetotal.innerText = prices.toFixed(2);
 
     } else {

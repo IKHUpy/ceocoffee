@@ -9,78 +9,77 @@
 		  "ID": 1,
           "description": "A shot of decaffeinated espresso diluted with your brewing desire.",
           "price": 79.99,
-		  "img": "/images/iced americano.jpg"
-		  
+		  "img": "/images/iced americano decaf.jpg"
         },
         {
           "name": "Americano Decaf",
 		  "ID": 2,
           "description": "A shot of decaffeinated espresso diluted with your brewing desire.",
           "price": 79.99,
-		  "img": "/images/hot americano.jpg"
+		  "img": "/images/hot americano decaf.jpg"
         },
         {
           "name": "Irish Coffee Decaf",
 		  "ID": 3,
           "description": "Hot caffeinated cocktail consisting of coffee, Irish cream liqueur, and Irish whiskey.",
           "price": 99.99,
-		  "img": "/images/irish coffee.jpg"
+		  "img": "/images/irish coffee decaf.jpg"
         },
 		{
           "name": "Vietnamese Coffee Decaf",
 		  "ID": 4,
           "description": "Bold, phin-drip decaffeinated coffee combined with sweet condensed milk.",
           "price": 109.99,
-		  "img": "/images/vietnamese.jpg"
+		  "img": "/images/vietnamese decaf.jpg"
         },
 		{
           "name": "CEO Classic Blend Decaf",
 		  "ID": 5,
           "description": "A classic blend of decaffeinated coffee beans of our own.",
           "price": 95.00,
-		  "img": "/images/ceo blend.jpg"
+		  "img": "/images/ceo blend decaf.jpg"
         },
 		{
           "name": "Cappuccino Decaf",
 		  "ID": 6,
           "description": "A balanced ratio of decaffeinated espresso, steamed milk, and milk foam.",
           "price": 80.00,
-		  "img": "/images/cappuccino.jpg"
+		  "img": "/images/cappuccino decaf.jpg"
         },
 		{
           "name": "Espresso Decaf",
 		  "ID": 7,
           "description": "1oz of highly concentrated decaffeinated coffee.",
           "price": 45.00,
-	      "img": "/images/espresso.jpg"	
+	      "img": "/images/espresso decaf.jpg"	
         },
 		{
           "name": "Caramel Macchiato Decaf",
 		  "ID": 8,
           "description": "Decaffeinated espresso added to milk topped with caramel syrup.",
           "price": 80.00,
-		  "img": "/images/caramel macchiato.jpg"	
+		  "img": "/images/caramel macchiato decaf.jpg"	
         },
 		{
           "name": "Iced Latte Decaf",
 		  "ID": 9,
           "description": "Rich, creamy beverage with a more subtle espresso taste.",
           "price": 85.00,
-		  "img": "/images/iced latte.jpg"
+		  "img": "/images/iced latte decaf.jpg"
         },
 				{
           "name": "Classic Latte Decaf",
 		  "ID": 10,
           "description": "Rich, creamy beverage with a more subtle espresso taste. Topped with a layer of foam art.",
           "price": 100.00,
-		  "img": "/images/latte.jpg"
+		  "img": "/images/latte decaf.jpg"
         },
 		{
           "name": "Affogato Decaf",
 		  "ID": 11,
           "description": "Decaffeinated espresso with vanilla ice cream.",
           "price": 100.00,
-		  "img": "/images/Affogato.jpg"
+		  "img": "/images/Affogato decaf.jpg"
         },
 		{
           "name": "Vanilla Bean Frappe",
@@ -532,7 +531,7 @@
 		  "ID": 3,
           "description": "Hot caffeinated cocktail consisting of coffee, Irish cream liqueur, and Irish whiskey.",
           "price": 99.99,
-		  "img": "/images/irish coffee.jpg"
+		  "img": "/images/irish coffee decaf.jpg"
         },
 		{
           "name": "Vietnamese Coffee Decaf",
@@ -541,40 +540,40 @@
           "price": 109.99,
 		  "img": "/images/vietnamese.jpg"
         },
-		{
+        {
           "name": "Cappuccino Decaf",
-		  "ID": 6,
+          "ID": 6,
           "description": "A balanced ratio of decaffeinated espresso, steamed milk, and milk foam.",
           "price": 80.00,
-		  "img": "/images/cappuccino.jpg"
+      "img": "/images/cappuccino decaf.jpg"
         },
-		{
+        {
           "name": "Caramel Macchiato Decaf",
-		  "ID": 8,
+          "ID": 8,
           "description": "Decaffeinated espresso added to milk topped with caramel syrup.",
           "price": 80.00,
-		  "img": "/images/caramel macchiato.jpg"	
+      "img": "/images/caramel macchiato decaf.jpg"
         },
 		{
           "name": "Iced Latte Decaf",
 		  "ID": 9,
           "description": "Rich, creamy beverage with a more subtle espresso taste.",
           "price": 85.00,
-		  "img": "/images/iced latte.jpg"
+		  "img": "/images/iced latte decaf.jpg"
         },
 				{
           "name": "Classic Latte Decaf",
 		  "ID": 10,
           "description": "Rich, creamy beverage with a more subtle espresso taste. Topped with a layer of foam art.",
           "price": 100.00,
-		  "img": "/images/latte.jpg"
+		  "img": "/images/latte decaf.jpg"
         },
 		{
           "name": "Affogato Decaf",
 		  "ID": 11,
           "description": "Decaffeinated espresso with vanilla ice cream.",
           "price": 100.00,
-		  "img": "/images/Affogato.jpg"
+		  "img": "/images/Affogato decaf.jpg"
         },
 				{
           "name": "Irish Coffee",
@@ -702,7 +701,7 @@
 		  "ID": 1,
           "description": "A shot of decaffeinated espresso diluted with your brewing desire.",
           "price": 79.99,
-		  "img": "/images/iced americano.jpg"
+		  "img": "/images/iced americano decaf.jpg"
 		  
         },
         {
@@ -710,70 +709,70 @@
 		  "ID": 2,
           "description": "A shot of decaffeinated espresso diluted with your brewing desire.",
           "price": 79.99,
-		  "img": "/images/hot americano.jpg"
+		  "img": "/images/hot americano decaf.jpg"
         },
         {
           "name": "Irish Coffee Decaf",
 		  "ID": 3,
           "description": "Hot caffeinated cocktail consisting of coffee, Irish cream liqueur, and Irish whiskey.",
           "price": 99.99,
-		  "img": "/images/irish coffee.jpg"
+		  "img": "/images/irish coffee decaf.jpg"
         },
 		{
           "name": "Vietnamese Coffee Decaf",
 		  "ID": 4,
           "description": "Bold, phin-drip decaffeinated coffee combined with sweet condensed milk.",
           "price": 109.99,
-		  "img": "/images/vietnamese.jpg"
+		  "img": "/images/vietnamese decaf.jpg"
         },
 		{
           "name": "CEO Classic Blend Decaf",
 		  "ID": 5,
           "description": "A classic blend of decaffeinated coffee beans of our own.",
           "price": 95.00,
-		  "img": "/images/ceo blend.jpg"
+		  "img": "/images/ceo blend decaf.jpg"
         },
 		{
           "name": "Cappuccino Decaf",
 		  "ID": 6,
           "description": "A balanced ratio of decaffeinated espresso, steamed milk, and milk foam.",
           "price": 80.00,
-		  "img": "/images/cappuccino.jpg"
+		  "img": "/images/cappuccino decaf.jpg"
         },
 		{
           "name": "Espresso Decaf",
 		  "ID": 7,
           "description": "1oz of highly concentrated decaffeinated coffee.",
           "price": 45.00,
-	      "img": "/images/espresso.jpg"	
+	      "img": "/images/espresso decaf.jpg"	
         },
 		{
           "name": "Caramel Macchiato Decaf",
 		  "ID": 8,
           "description": "Decaffeinated espresso added to milk topped with caramel syrup.",
           "price": 80.00,
-		  "img": "/images/caramel macchiato.jpg"	
+		  "img": "/images/caramel macchiato decaf.jpg"	
         },
 		{
           "name": "Iced Latte Decaf",
 		  "ID": 9,
           "description": "Rich, creamy beverage with a more subtle espresso taste.",
           "price": 85.00,
-		  "img": "/images/iced latte.jpg"
+		  "img": "/images/iced latte decaf.jpg"
         },
 		{
           "name": "Classic Latte Decaf",
 		  "ID": 10,
           "description": "Rich, creamy beverage with a more subtle espresso taste. Topped with a layer of foam art.",
           "price": 100.00,
-		  "img": "/images/latte.jpg"
+		  "img": "/images/latte decaf.jpg"
         },
 		{
           "name": "Affogato Decaf",
 		  "ID": 11,
           "description": "Decaffeinated espresso with vanilla ice cream.",
           "price": 100.00,
-		  "img": "/images/Affogato.jpg"
+		  "img": "/images/Affogato decaf.jpg"
         },
 		{
           "name": "Iced Americano",
